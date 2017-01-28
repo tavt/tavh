@@ -5,11 +5,11 @@
 	"env": {
 		"TITLE": {
 			"description": "Optionally set the title of this instance (defaults to 'lawful')",
-			"required": true
+			"required": false
 		},
 		"AUTH": {
 			"description": "Optional HTTP authentication in the form user:password",
-			"required": true
+			"required": false
 		}
 	}
 }
