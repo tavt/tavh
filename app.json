@@ -1,6 +1,15 @@
 {
-	"name": "lawful",
+	"name": "lawfulhan",
 	"website": "https://github.com/jpillora/cloud-torrent",
 	"repository": "https://github.com/jpillora/cloud-torrent",
-    	}
+	"env": {
+		"TITLE": {
+			"description": "Optionally set the title of this instance (defaults to 'lawful')",
+			"required": true
+		},
+		"AUTH": {
+			"description": "Optional HTTP authentication in the form user:password",
+			"required": true
+		}
+	}
 }
